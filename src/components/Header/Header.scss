@@ -1,0 +1,48 @@
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 14px 1px rgba(91, 153, 72, 0.4);
+    padding: 0 50px;
+
+    h1 {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        :hover {
+            color: #72883f;
+        }
+
+        p.bdHome {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 0px;
+            padding-right: 50px;
+        }
+        p.bdFave {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+    } 
+    
+    img.logo {
+        height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+    p.bdHead {
+        font-size: 1.1rem;
+    }
+}
